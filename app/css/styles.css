@@ -173,7 +173,7 @@ btn:visited {
 /*  Hero Section */
 
 .hero {
-  background: url(./images/Group\ 1466.png);
+  background: url(/images/Group\ 1466.png);
   background-position: center;
   background-size: cover;
   height: 82vh;
