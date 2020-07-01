@@ -9,3 +9,6 @@ hamburger.addEventListener('click', function(){
   overlay.classList.toggle('display');
   menu.classList.toggle ('active')
 })
+
+var scroll = new SmoothScroll('a[href*="#"]');
+
