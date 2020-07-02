@@ -43,6 +43,9 @@
 }
 
 @media (max-width:600px){
+  .features {
+    margin-top: 280px;
+  }
   .testimonals .testimonals__box {
     padding : 20px;
   }
@@ -55,11 +58,11 @@
   .pricing .pricing__box div {
     padding : 10px 70px;
   }
+
   .pricing .pricing__box a {
     margin: 20px auto;
   }
 
-  
   .testimonals .officer {
     flex-direction: column;
   }
