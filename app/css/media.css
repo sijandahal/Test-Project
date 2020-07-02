@@ -1,0 +1,10 @@
+@media (max-width : 600px) {
+  .featured .flex {
+    justify-content: center;
+  }
+  .services .box {
+    flex-direction: column;
+    padding : 20px 30px;
+    height: auto;
+  }
+}
