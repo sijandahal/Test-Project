@@ -18,6 +18,7 @@
 body {
   font-family: "Nunito", sans-serif;
   font-size: 14px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -57,7 +58,6 @@ p {
   font-family: "Nunito";
   text-decoration: none;
   cursor: pointer;
-  border-bottom: 2px solid var(--color-secondary);
  }
 
  .details__btn {
@@ -147,6 +147,7 @@ btn:visited {
 }
 
 .btn {
+  color: var(--color-primary);
   text-decoration: none;
   padding: 10px 15px;
   border: 2px solid var(--color-primary);
@@ -524,6 +525,11 @@ btn:visited {
   border-radius: 0px 55px 0px 55px;
 }
 
+.pricing__box a {
+  color : var(--color-white);    
+  box-shadow: -5px 5px 2px rgba(0, 0, 0, 0.7);
+}
+
 .pricing .pricing__box p {
   font-size: 18px;
   line-height: 34px;
@@ -580,6 +586,12 @@ btn:visited {
 
  .footer .footer__links li a {
    text-decoration: none;
+   transition: ease .5s ;
+ }
+
+ .footer .footer__links li a:hover {
+    color: var(--color-primary);
+    transform: scale(1.1);
  }
  
  .footer .footer__links ul h5 {
@@ -608,4 +620,45 @@ btn:visited {
    .footer .container .footer__items .footer__links:not(:first-child) {
      width: 40%;
     } 
+}
+
+.copyright {
+  padding: 20px 0px;
+}
+
+.copyright .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright .copyright__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright .copyright__details p {
+  font-size: 16px;
+}
+
+.copyright .copyright__details p:last-of-type {
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--color-primary);
+  margin-left: 55px;
+}
+.copyright .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright .icons .fab {
+  font-size: 26px;
+  padding-left : 20px;
+  cursor: pointer;
+}
+
+.copyright .icons .fab:hover {
+  color : var(--color-primary);
+  font-weight: 800;
 }
