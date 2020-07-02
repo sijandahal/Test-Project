@@ -1,10 +1,10 @@
 @media (max-width : 800px) {
   .features {
-    margin-top: 280px;
+    margin-top: 200px;
   }
 
   .featured .flex {
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .services .box {
     flex-direction: column;
@@ -20,7 +20,7 @@
   .features .flex {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     border-bottom: 2px solid var(--color-secondary);
   }
 
@@ -50,7 +50,11 @@
   }
 
   .features {
-    margin-top: 280px;
+    margin-top: 370px;
+  }
+
+  .featured .flex {
+    justify-content: center;
   }
 
   
