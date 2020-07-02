@@ -52,6 +52,17 @@
     height : auto;
     flex-direction: column;
   }
+  .pricing .pricing__box div {
+    padding : 10px 70px;
+  }
+  .pricing .pricing__box a {
+    margin: 20px auto;
+  }
+
+  
+  .testimonals .officer {
+    flex-direction: column;
+  }
 
   .copyright .wrapper {
     flex-direction: column;
@@ -64,4 +75,5 @@
     display: block;
     margin-bottom: 40px;
   }
+
 }
