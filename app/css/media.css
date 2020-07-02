@@ -30,7 +30,7 @@
   }
 
   .features .flex .flex__image {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .pricing .pricing__box div {
@@ -44,9 +44,25 @@
 }
 
 @media (max-width:600px){
+  .services h1 {
+  font-size: 24px;
+  margin-bottom: 44px;
+  }
+
   .features {
     margin-top: 280px;
   }
+
+  
+.features .flex .flex__image .flex__image--image{
+  max-width: 76%;
+}
+
+.features .flex .flex__image {
+  max-width : 336px;
+  padding : 0px;
+}
+
   .testimonals .testimonals__box {
     padding : 20px;
   }
