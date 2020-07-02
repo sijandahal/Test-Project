@@ -591,7 +591,7 @@ btn:visited {
 
  .footer .footer__links li a:hover {
     color: var(--color-primary);
-    transform: scale(1.1);
+    font-weight: bold;
  }
  
  .footer .footer__links ul h5 {

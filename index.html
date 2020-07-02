@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Link AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- Font Awesome -->
     <script
@@ -36,8 +36,7 @@
     <title>Test Project</title>
   </head>
   <body>
-    <header class="header" data-aos="fade-right"
-    data-aos-duration="1000">
+    <header class="header">
       <div class="overlay"></div>
       <nav>
         <div class="logo">
@@ -100,8 +99,7 @@
     <div class="featured" id="featured">
       <div class="container">
         <h3>Featured On</h3>
-        <div class="flex" data-aos = "fade-right" 
-                          data-aos-duration = "2000">
+        <div class="flex" data-aos="fade-right" data-aos-duration="2000">
           <img
             src="./images/features svg/Andreas.svg"
             alt="Image"
@@ -163,8 +161,11 @@
             <p>Let's Talk !</p>
             <a href="#">Visit our WordPress support and maintence plan</a>
           </div>
-          <div class="image__box" data-aos="fade-down-right"
-                                  data-aos-duration="2000">
+          <div
+            class="image__box"
+            data-aos="fade-down-right"
+            data-aos-duration="2000"
+          >
             <figure>
               <img
                 src="./images/image.png"
@@ -184,7 +185,12 @@
 
     <!-- features Section -->
 
-    <section class="features" id="features">
+    <section
+      class="features"
+      id="features"
+      data-aos="fade-down"
+      data-aos-duration="3000"
+    >
       <h1>Our Features</h1>
       <p>Feel free to surf through our services and features below.</p>
       <div class="flex">
@@ -326,8 +332,7 @@
           </p>
           <img src="/images/Group 17.svg" alt="Quote" class="quote" />
         </div>
-        <div class="officer" data-aos="fade-right"
-        data-aos-duration="6000">
+        <div class="officer" data-aos="fade-right" data-aos-duration="2000">
           <div class="headmember">
             <div class="circle"></div>
             <div class="headermember__detail">
@@ -357,8 +362,13 @@
     </section>
     <!-- End of Testimonals -->
 
-    <section class="pricing" id="pricing" data-aos="fade-up-left">
-      >
+    <section
+      class="pricing"
+      id="pricing"
+      data-aos="fade-up-left"
+      data-aos-duration="2000"
+    >
+      
       <div class="container">
         <div class="pricing__box">
           <div>
@@ -421,7 +431,7 @@
     </section>
     <!-- End of Footer -->
 
-    <div class="copyright" data-aos="fade-down">
+    <div class="copyright" data-aos="fade-down" data-aos-duration="3000">
       <div class="container">
         <div class="wrapper">
           <div class="copyright__details">
@@ -437,15 +447,15 @@
         </div>
       </div>
     </div>
-<!-- Smooth Scroll  -->
+    <!-- Smooth Scroll  -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 
-<!-- AOS  -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
- <!-- JS FILE -->
+    <!-- AOS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- JS FILE -->
     <script src="./app/js/app.js"></script>
   </body>
 </html>
