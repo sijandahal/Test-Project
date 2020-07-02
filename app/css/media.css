@@ -7,4 +7,15 @@
     padding : 20px 30px;
     height: auto;
   }
+
+  .features .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .features .flex:nth-child(even) {
+    display: flex;
+    flex-direction: column;
+  }
 }

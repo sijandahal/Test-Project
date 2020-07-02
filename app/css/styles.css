@@ -317,7 +317,8 @@ btn:visited {
 
 .services .box {
   background-color: #F3F8FE;
-  height : 450px;
+  max-height : 600px;
+  height: auto;
   padding: 60px;
   display: flex;
   justify-content: space-between;
