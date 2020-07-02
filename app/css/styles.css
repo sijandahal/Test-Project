@@ -355,7 +355,7 @@ btn:visited {
   border-radius: 0 55px 0 55px;
   margin-top: -150px;
   z-index: 25;
-  box-shadow: 0px 10px 46px #ffffff;
+  box-shadow: var(--box-shadow);
 }
 
 .services .image__box figure {
@@ -537,13 +537,15 @@ btn:visited {
 /* Footer */
 
 .footer {
-
+ padding : 40px 0px;
 }
 
 .footer .container .footer__items {
  display: flex;
  justify-content: space-between;
  flex-wrap: wrap;
+ padding-bottom: 20px;
+ border-bottom: 1px solid var(--color-secondary);
 }
 
 .footer .container .footer__items .footer__links {
