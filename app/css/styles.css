@@ -280,7 +280,7 @@ btn:visited {
 
 
 .featured {
- margin-bottom: 140px;
+padding-bottom: 60px;
 }
 
 .featured h3 {
@@ -303,6 +303,8 @@ btn:visited {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 60px;
+  border-bottom: 1px solid var(--color-primary);
 }
 /* End of Featured Section */
 
@@ -469,18 +471,16 @@ btn:visited {
   text-align: center;
 }
 
-.testimonals .testimonals__box p:first-of-type {
+.testimonals .testimonals__box p {
+  text-align: center;
   max-width: 889px;
-  max-height: 194px;
+  height: auto;
  font-style: italic;
- text-align: left;
- padding: 50px 10px;
+ padding: 50px 10px 0px 50px;
  margin-bottom: 20px;
 }
 
-.testimonals .testimonals__box p:last-of-type {
-  margin-bottom: 40px;
-}
+
 
 .testimonals .testimonals__box .quote {
   padding-bottom: 76px;

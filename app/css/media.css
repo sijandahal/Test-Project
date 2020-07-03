@@ -1,4 +1,6 @@
-@media (max-width : 800px) {
+@media (max-width : 900px) {
+  /* Features */
+
   .features {
     margin-top: 200px;
   }
@@ -6,6 +8,8 @@
   .featured .flex {
     justify-content: space-evenly;
   }
+
+
   .services .box {
     flex-direction: column;
     align-items: center;
@@ -41,10 +45,20 @@
     width: auto;
     height : auto;
   }
+
+  /* Testimonals */
+  .testimonals .testimonals__box {
+    padding: 20px;
+  }
+
+.testimonals .testimonals__box p:first-of-type {
+   max-height: auto;
 }
+  } 
 
 @media (max-width:600px){
-  
+   /* HEaders */
+
 h1 {
   font-size: 35px;
 }
@@ -58,10 +72,12 @@ h3 {
   font-size: 25px;
   text-align: center;
 }
- 
+  /* Hero  */
 .hero {
   padding: 90px 0px 148px 0px;
 }
+ /* Features */
+
   .features {
     margin-top: 370px;
   }
@@ -79,7 +95,7 @@ h3 {
   max-width : 336px;
   padding : 0px;
 }
-
+   /* Testimonals */
   .testimonals .testimonals__box {
     padding : 20px;
   }
@@ -100,7 +116,7 @@ h3 {
   .testimonals .officer {
     flex-direction: column;
   }
-
+  
   .copyright .wrapper {
     flex-direction: column;
     align-items: center;
@@ -115,11 +131,45 @@ h3 {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1100px){
   .testimonals .officer .headmember:nth-child(even) .flex__image{
    margin-left: 40px;
   }
+  .services .box {
+    margin-top: 79px;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width :400px ){
   body {
