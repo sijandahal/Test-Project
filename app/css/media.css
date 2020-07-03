@@ -8,7 +8,15 @@
   .featured .flex {
     justify-content: space-evenly;
   }
+  
+  .copyright .wrapper  {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .copyright .copyright__details {
+    margin-bottom: 20px;
+  }
 
   .services .box {
     flex-direction: column;
@@ -37,13 +45,11 @@
     margin-bottom: 40px;
   }
 
-  .pricing .pricing__box div {
-    width: 400px;
-  }
   .pricing__box {
     padding : 20px 40px;
+    max-height: auto;
+    height: auto;
     width: auto;
-    height : auto;
   }
 
   /* Testimonals */
@@ -54,11 +60,11 @@
   .testimonals .testimonals__box p {
     padding: 20px;
   }
+
   } 
 
 @media (max-width:600px){
    /* HEaders */
-
 h1 {
   font-size: 35px;
 }
@@ -86,7 +92,6 @@ h3 {
     justify-content: center;
   }
 
-  
 .features .flex .flex__image .flex__image--image{
   max-width: 76%;
 }
@@ -97,15 +102,20 @@ h3 {
 }
    /* Testimonals */
   .testimonals .testimonals__box {
-    padding : 20px;
-  }
-  .pricing__box {
-    padding : 20px 40px;
-    width: auto;
-    height : auto;
-    flex-direction: column;
+    padding : 20px!important;
   }
 
+  .testimonals .testimonals__box p {
+    padding: 10px;
+  }
+
+  .pricing__box {
+    flex-direction: column;
+  }
+  .pricing .pricing__box div {
+    width: auto!important;
+    height: auto!important;
+  }
   .pricing .pricing__box a {
     margin: 40px auto;
   }
@@ -130,29 +140,19 @@ h3 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1100px){
   .testimonals .officer .headmember:nth-child(even) .flex__image{
    margin-left: 40px;
   }
   .services .box {
     margin-top: 79px;
+  }
+
+  .testimonals .testimonals__box {
+    padding: 40px 30px 10px 30px;
+  }
+  .pricing .pricing__box div {
+    width: 450px;
   }
 }
 
