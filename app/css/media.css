@@ -105,12 +105,9 @@ h3 {
     height : auto;
     flex-direction: column;
   }
-  .pricing .pricing__box div {
-    padding : 10px 70px;
-  }
 
   .pricing .pricing__box a {
-    margin: 20px auto;
+    margin: 40px auto;
   }
 
   .testimonals .officer {
