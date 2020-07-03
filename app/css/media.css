@@ -101,3 +101,15 @@
   }
 
 }
+
+@media (max-width: 1100px){
+  .testimonals .officer .headmember:nth-child(even) .flex__image{
+   margin-left: 40px;
+  }
+}
+
+@media (max-width :400px ){
+  body {
+    overflow-x: hidden;
+  }
+}
