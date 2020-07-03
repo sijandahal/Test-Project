@@ -572,7 +572,6 @@ btn:visited {
  flex-wrap: wrap;
  padding-bottom: 60px;
  border-bottom: 1px solid var(--color-primary);
- 
 }
 
 .footer .container .footer__items .footer__links {
@@ -644,7 +643,7 @@ btn:visited {
 }
 
 .copyright {
-  padding: 20px 0px;
+  padding: 40px 0px;
 }
 
 .copyright .wrapper {
