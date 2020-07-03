@@ -44,11 +44,24 @@
 }
 
 @media (max-width:600px){
-  .services h1 {
-  font-size: 24px;
-  margin-bottom: 44px;
-  }
+  
+h1 {
+  font-size: 35px;
+}
 
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+}
+ 
+.hero {
+  padding: 90px 0px 148px 0px;
+}
   .features {
     margin-top: 370px;
   }
