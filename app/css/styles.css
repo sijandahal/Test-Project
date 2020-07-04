@@ -243,17 +243,20 @@ btn:visited {
 }
 
 .hero .header__main__details {
-  position: relative;
   margin-bottom: 30px;
+  position: relative;
 }
-.hero .header__main__details .line {
-  max-width: 365px;
-  height: 14.5px;
-  position: absolute;
-  top: 35px;
-  left: 155px;
-  background-color: var(--border-color);
-  z-index: -1;
+
+.hero .header__main__details .span::before {
+  content: "";
+    background: var(--border-color);
+    height: 14.5px;
+    width: calc( 52%);
+    position: absolute;
+    bottom: 96px;
+    margin-left: 0%;
+    z-index: -1;
+
 }
 
 .hero .details {
